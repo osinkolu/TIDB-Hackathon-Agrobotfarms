@@ -4,10 +4,11 @@ FROM ubuntu:20.04
 # Set the working directory in the container
 WORKDIR /app
 
-# Install necessary packages using sudo
+# Install necessary packages
 RUN apt-get update \
-    && apt-get install -y sudo python3 python3-pip python3-dev \
-    && sudo apt-get install -y python-mysqldb \
+    && apt-get install -y default-libmysqlclient-dev \
+    && apt-get install -y python3 python3-pip python3-dev \
+    && apt-get install -y python-mysqldb \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy the requirements file to the working directory
