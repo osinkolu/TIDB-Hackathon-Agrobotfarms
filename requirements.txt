@@ -1,4 +1,4 @@
 Flask
 gunicorn
-MySQL-python==1.2.5
+mysqlclient
 gunicorn
