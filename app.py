@@ -2,7 +2,7 @@ from flask import Flask,request
 from datetime import datetime 
 import MySQLdb
 
-"""raw_data =     {
+raw_data =     {
         "device_name":"Alpha_x1",
         "temperature":32.47,
         "humidity":59.26,
@@ -11,7 +11,7 @@ import MySQLdb
         "soil_moisture":2564.0,
         "analog_rain_sensor":1234.0,
         "rain":1
-    }"""
+    }
 
 
 # Get current date and time
@@ -34,7 +34,7 @@ def index():
 
 @app.route("/save", methods=["GET", "POST"])
 def save():
-    raw_data = request.get_json(force=True)
+ #   raw_data = request.get_json(force=True)
     device_name = raw_data["device_name"]
     iot_date = formatted_date
     iot_time = formatted_time
