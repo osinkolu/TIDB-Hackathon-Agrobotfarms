@@ -1,6 +1,6 @@
 from flask import Flask,request
 from datetime import datetime 
-import MySQLdb
+import pymysql
 
 """raw_data =     {
         "device_name":"Alpha_x1",
@@ -45,7 +45,7 @@ def save():
     soil_moisture = raw_data["soil_moisture"]
     analog_rain_sensor = raw_data["analog_rain_sensor"]
     rain = [True if raw_data["rain"]==0 else False][0]
-    connection = MySQLdb.connect(
+    connection = pymysql.connect(
             host= "gateway01.eu-central-1.prod.aws.tidbcloud.com",
             port=  4000,
             user=  "j95PwvJZywqTsY4.root",
