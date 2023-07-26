@@ -1,0 +1,27 @@
+{
+    "name": "Agrobotfarms: Empowering the Modern Farmer",
+    "short_name": "Agrobot",
+    "start_url": "./?uym_source=pwa",
+    "orientation": "portrait",
+    "theme_color": "#f1f7ff",
+    "scope": "./",
+    "display": "standalone",
+    "icons": [
+       {
+           "src": "images/icon-276.png",
+           "sizes": "276x276",
+           "type": "image/png"
+       },
+       {
+        "src": "images/icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+        },
+        {
+            "src": "images/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+   ]
+}
