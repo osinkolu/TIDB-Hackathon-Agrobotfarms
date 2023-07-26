@@ -1,4 +1,3 @@
 Flask
 gunicorn
-mysqlclient
-gunicorn
+pymysql
