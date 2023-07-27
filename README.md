@@ -82,7 +82,8 @@ Let's revolutionize farming together! 🌾🚀
   
 
 - Database: TiDB Serverless
-![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/87626be3-9f27-443a-b199-f1a6f33fedbb)
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/52dca04d-fadf-44a7-a088-fd51c02f3135)
+
 
 - Deployment: Vercel
 ![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/763732f5-c3f5-4496-b001-7d7559d5f23f)
