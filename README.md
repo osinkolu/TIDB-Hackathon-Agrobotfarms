@@ -60,6 +60,15 @@ We will definitely welcome contributions from the community **after the TIDB Hac
 4. Push your changes to the branch: `git push origin my-feature-branch`.
 5. Open a pull request, and we'll review your contribution.
 
+## Technologies Used
+
+- Frontend: HTML, CSS, JavaScript, React.js
+- Backend: Node.js, Express.js
+- Database: TiDB Serverless
+- AI: TensorFlow, scikit-learn
+- IoT: NodeMCU, C++
+- Deployment: Vercel
+  
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -70,21 +79,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Let's revolutionize farming together! 🌾🚀
 
-## Technologies Used
+## Hackathon Technologies Used
 
-- Frontend: HTML, CSS, JavaScript, React.js
-- Backend: Node.js, Express.js
-- AI: TensorFlow, scikit-learn
-- IoT: NodeMCU, C++
+### Database: TiDB Serverless
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/52dca04d-fadf-44a7-a088-fd51c02f3135)
+
+### Deployment: Vercel
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/4da6811f-3561-4841-8284-dd1813b8bd80)
+
+### IoT
 ![WhatsApp Image 2023-07-27 at 10 59 59 PM (1)](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/c850af0c-cee8-4d53-ad8f-010ef0a2963c)
 ![qw](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/8a9591c8-9d85-47a5-9e2c-7aa9f3dbfb4a)
 
-  
 
-- Database: TiDB Serverless
-![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/52dca04d-fadf-44a7-a088-fd51c02f3135)
-
-
-- Deployment: Vercel
-![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/4da6811f-3561-4841-8284-dd1813b8bd80)
 
