@@ -35,15 +35,6 @@ Agrobotfarms is a powerful web application that caters to the unique challenges 
 
 5. 🌡️ **IoT Weather and Soil Data Collection:** An IoT device collects real-time weather and soil data, securely stored using TiDB Serverless, and visualized for farmers to gain valuable insights.
 
-## Technologies Used
-
-- Frontend: HTML, CSS, JavaScript, React.js
-- Backend: Node.js, Express.js
-- Database: TiDB Serverless
-- AI: TensorFlow, scikit-learn
-- IoT: NodeMCU, C++
-- Deployment: Vercel
-
 ## Demo
 
 [![Agrobotfarms Demo](https://your-demo-image-url-here.png)](https://your-live-demo-url-here)
@@ -78,3 +69,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Agrobotfarms** is built with love by [Team Agrobot](https://your-team-website-url-here.com) for the TiDB Future App Hackathon 2023, proudly sponsored by [TiDB](https://www.pingcap.com/tidb/), and [Vercel](https://vercel.com/).
 
 Let's revolutionize farming together! 🌾🚀
+
+## Technologies Used
+
+- Frontend: HTML, CSS, JavaScript, React.js
+- Backend: Node.js, Express.js
+- AI: TensorFlow, scikit-learn
+- IoT: NodeMCU, C++
+![WhatsApp Image 2023-07-27 at 10 59 59 PM (1)](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/c850af0c-cee8-4d53-ad8f-010ef0a2963c)
+  
+
+- Database: TiDB Serverless
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/87626be3-9f27-443a-b199-f1a6f33fedbb)
+
+- Deployment: Vercel
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/763732f5-c3f5-4496-b001-7d7559d5f23f)
