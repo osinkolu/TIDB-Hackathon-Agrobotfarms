@@ -86,4 +86,5 @@ Let's revolutionize farming together! 🌾🚀
 
 
 - Deployment: Vercel
-![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/763732f5-c3f5-4496-b001-7d7559d5f23f)
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/4da6811f-3561-4841-8284-dd1813b8bd80)
+
