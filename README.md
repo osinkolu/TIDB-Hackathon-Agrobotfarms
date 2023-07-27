@@ -1,6 +1,6 @@
 # TiDB Hackathon Agrobotfarms - Empowering Farmers in Sub-Saharan Africa
 
-[!Agrobotfarms](https://agrobotfarms.netlify.app/images/logo.png)
+[![Agrobotfarms](https://agrobotfarms.netlify.app/images/logo.png)](https://agrobotfarms.vercel.app/)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/Agrobotfarms/pulls)
