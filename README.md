@@ -85,6 +85,7 @@ Let's revolutionize farming together! 🌾🚀
 ![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/52dca04d-fadf-44a7-a088-fd51c02f3135)
 
 ### Deployment: Vercel
+
 ![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/4da6811f-3561-4841-8284-dd1813b8bd80)
 
 ### IoT
