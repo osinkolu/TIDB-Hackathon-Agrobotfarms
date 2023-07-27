@@ -77,6 +77,8 @@ Let's revolutionize farming together! 🌾🚀
 - AI: TensorFlow, scikit-learn
 - IoT: NodeMCU, C++
 ![WhatsApp Image 2023-07-27 at 10 59 59 PM (1)](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/c850af0c-cee8-4d53-ad8f-010ef0a2963c)
+![qw](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/8a9591c8-9d85-47a5-9e2c-7aa9f3dbfb4a)
+
   
 
 - Database: TiDB Serverless
