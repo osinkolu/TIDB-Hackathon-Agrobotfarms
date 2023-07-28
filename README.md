@@ -12,7 +12,6 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Contribution Guidelines](#contribution-guidelines)
 - [License](#license)
@@ -35,11 +34,6 @@ Agrobotfarms is a powerful web application that caters to the unique challenges 
 
 5. 🌡️ **IoT Weather and Soil Data Collection:** An IoT device collects real-time weather and soil data, securely stored using TiDB Serverless, and visualized for farmers to gain valuable insights.
 
-## Demo
-
-[![Agrobotfarms Demo](https://your-demo-image-url-here.png)](https://your-live-demo-url-here)
-
-Click on the image above to view a live demo of Agrobotfarms.
 
 ## Getting Started
 
