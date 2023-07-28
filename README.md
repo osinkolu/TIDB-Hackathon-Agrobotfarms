@@ -83,6 +83,7 @@ Let's revolutionize farming together! 🌾🚀
 ![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/4da6811f-3561-4841-8284-dd1813b8bd80)
 
 ### IoT
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/fb368c05-738e-4b4f-8e25-a688fb1652c4)
 ![WhatsApp Image 2023-07-27 at 10 59 59 PM (1)](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/c850af0c-cee8-4d53-ad8f-010ef0a2963c)
 ![qw](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/8a9591c8-9d85-47a5-9e2c-7aa9f3dbfb4a)
 
