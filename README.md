@@ -3,7 +3,7 @@
 [![Agrobotfarms](https://tidb-hackathon-agrobotfarms.vercel.app/images/logo.png)](https://tidb-hackathon-agrobotfarms.vercel.app/)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/Agrobotfarms/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/osinkolu/Agrobotfarms/pulls)
 
 > An innovative and impactful platform that aims to revolutionize farming in sub-Saharan Africa, providing farmers with resources, knowledge, and advanced technologies.
 
