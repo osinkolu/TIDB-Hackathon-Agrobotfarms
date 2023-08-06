@@ -76,11 +76,13 @@ Let's revolutionize farming together! 🌾🚀
 ## Hackathon Technologies Used
 
 ### Database: TiDB Serverless
-![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/52dca04d-fadf-44a7-a088-fd51c02f3135)
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/6c85cb21-c5ce-4f06-8642-62d1b86913dd)
+
 
 ### Deployment: Vercel
 
-![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/4da6811f-3561-4841-8284-dd1813b8bd80)
+![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/2ef7af6e-a4c4-4ce4-be9a-6f5a4b79e753)
+
 
 ### IoT
 ![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/fb368c05-738e-4b4f-8e25-a688fb1652c4)
