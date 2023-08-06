@@ -1,0 +1,30 @@
+/* ----------------------------------------------------------------
+			[ All CSS Plugins & Default Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("plugins/bootstrap.min.css");
+
+/* == animate == */
+@import url("plugins/animate.css");
+
+/* == animate Headline == */
+@import url("plugins/animated-headline.css");
+
+/* == fontawesome icon font == */
+@import url("plugins/fontawesome-all.min.css");
+
+/* == themify font == */
+@import url("plugins/themify-icons.css");
+
+/* == magnific-popup == */
+@import url("plugins/magnific-popup.css");
+
+/* == owl.carousel == */
+@import url("plugins/owl.carousel.css");
+
+/* == default classes == */
+@import url("plugins/default.css");
+
+/* == navigation == */
+@import url("plugins/nav-menu.css");

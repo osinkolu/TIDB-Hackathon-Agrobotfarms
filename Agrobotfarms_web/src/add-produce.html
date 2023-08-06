@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="BloomFarm" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="BloomFarm - The Digital Marketplace for Farm Produce" />
+    <meta name="description" content="BloomFarm -The Digital Marketplace for Farm Produce" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.jpg" />
+    <link rel="apple-touch-icon" href="img/favicon.jpg" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon.jpg" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/new-produce.css">
+
+    <title>New Produce</title>
+</head>
+<body class="container" id="main">
+    <section id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <ul>
+            <li><a class="active" href="#"><i class="fa fa-home"></i>Home </a></li>
+            <li><a href="#"><i class="fa fa-book"></i>My Produce</a></li>
+            <li><a href="#"><i class="fa fa-calendar-o"></i>Sessions</a></li>
+            <li><a href="#"><i class="fa fa-bell-o"></i>Notifications</a></li>
+            <span>
+            <li><a href="#"><i class="fa fa-user-o"></i>Baba Oyo</a></li>
+            <li><a href="signin.html"><i class="fa fa-sign-out"></i>Logout</a></li>
+            </span>
+        </ul>
+    </section>
+    <section class="sidebar1">
+        <ul>
+            <li><a class="active" href="#"><i class="fa fa-home"></i>Home </a></li>
+            <li><a href="#"><i class="fa fa-book"></i>My Produce</a></li>
+            <li><a href="#"><i class="fa fa-calendar-o"></i>Sessions</a></li>
+            <li><a href="#"><i class="fa fa-bell-o"></i>Notifications</a></li>
+            <span>
+            <li><a href="#"><i class="fa fa-user-o"></i>Baba Oyo</a></li>
+            <li><a href="signin.html"><i class="fa fa-sign-out"></i>Logout</a></li>
+            </span>
+        </ul>
+    </section>
+    <nav>
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <img src="img/content/logo.jpg" alt="">
+      </nav>
+      <hr> 
+      <section class="right">
+        <form>
+          <h3>Add a Farm Produce</h3>
+          <section class="farm-details">
+            <h4>Farm Produce Details</h4>
+            <div class="name">
+              <label for="farm">
+                <input type="text" oninput="this.className = ''" id="firstname" placeholder="Farm name" autofocus required>
+              </label>
+            </div>
+            <div class="grade">
+              <label for="produce">
+                <input type="text" oninput="this.className = ''" id="firstname" placeholder="Farm produce" required>
+              </label>
+            </div>     
+            <div class="name">
+              <label for="price">
+                <input type="text" oninput="this.className = ''" placeholder="Price" required>
+              </label>
+            </div>   
+            <div class="grade">
+              <label for="location">
+                <input type="text" oninput="this.className = ''" placeholder="Location" required>
+              </label>
+            </div>     
+            <div class="description">
+              <label for="description">
+                <input type="textarea" oninput="this.className = ''" placeholder="Produce description" required>
+              </label> 
+            </div>   
+            <div class="upload">
+              <label for="cover-image">
+                <input type="file" oninput="this.className = ''" class="custom-file-input" required>
+              </label> 
+              <button class="but" type="button">UPLOAD</button>
+            </div>      
+            <section style="overflow:auto;">
+            <div>
+              <button class="butn" type="button" id="nextBtn" onclick="nextPrev(1)">Save</button>
+            </div>
+          </section>
+        </section>
+          <!-- <section class="farm-content">
+            <h4>farm Content</h4>            
+          </section> -->
+        </form>  
+      </section>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+</body>
+</html>
