@@ -75,6 +75,10 @@ Let's revolutionize farming together! 🌾🚀
 
 ## Hackathon Technologies Used
 
+### TiDB Architecture
+![TiDB architecture](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/fdf13ad2-ec87-4795-9bb4-112b73ce4b47)
+
+
 ### Database: TiDB Serverless
 ![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/6c85cb21-c5ce-4f06-8642-62d1b86913dd)
 
@@ -85,9 +89,4 @@ Let's revolutionize farming together! 🌾🚀
 
 
 ### IoT
-![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/fb368c05-738e-4b4f-8e25-a688fb1652c4)
-![WhatsApp Image 2023-07-27 at 10 59 59 PM (1)](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/c850af0c-cee8-4d53-ad8f-010ef0a2963c)
-![qw](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/8a9591c8-9d85-47a5-9e2c-7aa9f3dbfb4a)
-
-
-
+![HTAP TiDB and IoT](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/44dff8c8-3e24-4480-a839-384720f31ca1)
