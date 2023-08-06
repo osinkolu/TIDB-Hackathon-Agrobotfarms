@@ -35,7 +35,7 @@ nav > img {
 }
 
 .sidebar {
-    height: inherit;
+    height: 100vh;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -114,7 +114,7 @@ i {
 
 .main {
     padding: 20px;
-    height: inherit;
+    height: 100vh;
 }
 
 .main img {
@@ -172,6 +172,7 @@ button a {
         display: none;
     }
 	.container {
+        height: 100vh;
         display: grid;
 		grid-template-columns: 1fr 3fr;
 		grid-template-rows: auto;
