@@ -88,5 +88,5 @@ Let's revolutionize farming together! 🌾🚀
 ![image](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/2ef7af6e-a4c4-4ce4-be9a-6f5a4b79e753)
 
 
-### IoT
+### IoT Device
 ![HTAP TiDB and IoT](https://github.com/osinkolu/TIDB-Hackathon-Agrobotfarms/assets/60588823/44dff8c8-3e24-4480-a839-384720f31ca1)
