@@ -6,25 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="../images/logo.png" />
+  <link rel="shortcut icon" href="img/favicon.jpg" />
   <link rel="stylesheet" href="css/signup/signin.css">
 
   <title>Sign Up</title>
-  <script>
-    function redirectToDashboard() {
-      var role = document.getElementById("role").value;
-      
-      if (role === "Farmer") {
-        window.location.href = "farmer-dashboard.html";
-      } else if (role === "Buyer") {
-        window.location.href = "consumer-dashboard.html";
-      }
-    }
-  </script>
 </head>
 <body class="container">
   <nav>
-    <img src="img/logo.jpg" alt="">
+    <img src="../images/logo.png" alt="">
   </nav>
   <hr> 
   <section class="left">
@@ -32,11 +21,11 @@
       <img src="img/signup.svg" alt="">
     </div>
     <div class="nav">
-      <img src="img/logo.jpg" alt="">
+      <img src="../images/logo.png" alt="">
     </div>
   </section>
   <section>
-    <form>
+    <form id="regForm" method="post">
         <!-- One "tab" for each step in the form: -->
       <section class="tab">
         <h3>Sign Up</h3>
@@ -71,7 +60,7 @@
         <div class="rol">  
           <input name="role" list="role" oninput="this.className = ''" placeholder="Role" required>
           <datalist id="role">
-            <select id="role" name="role">
+            <select name="role">
               <option value="Farmer">Farmer</option>
               <option value="Buyer">Buyer</option>
             </select>
@@ -94,13 +83,12 @@
       </section>
 
           <div>
-            <button class="butn" value="Submit" onclick="redirectToDashboard()" type="button" >Sign up </button>
+            <button class="butn" type="submit" >Sign up </button>
           </div>
       </div>
     </form>  
   </section>
 
- 
 <script src="./js/signup/signup.js"></script>
 <script src="./js/signup/signin.js"></script>
 
