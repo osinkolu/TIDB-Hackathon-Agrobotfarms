@@ -20,8 +20,6 @@
 
 Agrobotfarms is a powerful web application that caters to the unique challenges faced by farmers in sub-Saharan Africa. Our mission is to empower farmers with regenerative farming practices, access to extension services, crop disease detection, AI-based crop predictions, and IoT data insights. By leveraging the latest technologies and seamless integration with TiDB and Vercel, we offer farmers a comprehensive platform to thrive and succeed in the agricultural industry.
 
-**[Live Demo](https://your-live-demo-url-here)**
-
 ## Features
 
 1. 🌿 **Regenerative Farming Wiki:** A comprehensive knowledge base to educate farmers about sustainable and regenerative farming practices.
@@ -69,7 +67,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Agrobotfarms** is built with love by [Team Agrobot](https://your-team-website-url-here.com) for the TiDB Future App Hackathon 2023, proudly sponsored by [TiDB](https://www.pingcap.com/tidb/), and [Vercel](https://vercel.com/).
+**Agrobotfarms** is built with love by Team Agrobot for the TiDB Future App Hackathon 2023, proudly sponsored by [TiDB](https://www.pingcap.com/tidb/), and [Vercel](https://vercel.com/).
 
 Let's revolutionize farming together! 🌾🚀
 
