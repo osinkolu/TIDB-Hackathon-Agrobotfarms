@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg" />
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Dashboard</title>
+</head>
+<body class="container">
+  <section id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <ul>
+        <li><a class="active" href="#"><i class="fa fa-home"></i>Home </a></li>
+        <li><a href="#"><i class="fa fa-user-o"></i>Edit Profile</a></li>
+        <li><a href="#"><i class="fa fa-book"></i>My Orders</a></li>
+        <li><a href="#"><i class="fa fa-bell-o"></i>Notifications</a></li>
+        <span>
+        <li><a href="#"><i class="fa fa-user-o"></i>Festus</a></li>
+        <li><a href="signin.html"><i class="fa fa-sign-out"></i>Logout</a></li>
+        </span>
+    </ul>
+</section>
+<section class="sidebar1">
+    <ul>
+        <li><a class="active" href="#"><i class="fa fa-home"></i>Home </a></li>
+        <li><a href="#"><i class="fa fa-book"></i>My Orders</a></li>
+        <li><a href="#"><i class="fa fa-calendar-o"></i>Sessions</a></li>
+        <li><a href="#"><i class="fa fa-bell-o"></i>Notifications</a></li>
+        <span>
+        <li><a href="#"><i class="fa fa-user-o"></i>Festus</a></li>
+        <li><a href="signin.html"><i class="fa fa-sign-out"></i>Logout</a></li>
+        </span>
+    </ul>
+</section>
+<nav>
+    <button class="openbtn" onclick="openNav()">☰</button>
+    <img src="img/logo.jpg" alt="">
+  </nav>
+  <hr> 
+    <section id="main" class="main">
+      <h4>Hello Festus,</h4>
+      <h2>Welcome Onboard as the Latest BloomFarm Buyer</h2>  
+      <div class="centre-content">
+        <div>
+          <img src="img/welcome.svg">
+        </div>
+        <div>
+          <p>No farm produce bought yet, browse through available farms below.</p>
+        </div>
+      <button><a href="marketplace.html">+ DIVE IN</a></button>
+      </div>         
+    </section>
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+  </script>
+</body>
+</html>

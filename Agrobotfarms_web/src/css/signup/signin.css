@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav {
+  display: none;
+}
+
+.sign {
+  display: none;
+}
+
+img {
+    height: 40px;
+    max-width: 150px;
+    position: relative;
+    margin-left: 40px;
+}
+
+hr {
+    background-color: #1F194C;
+    /* height: 0.5px; */
+}
+
+.container {
+    color: #1F194C;
+    display: grid;
+    grid-gap: 2px;    
+}
+
+input {
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-shadow: none;
+    width: 100%;
+    height: 50px;
+    border: solid 1px #E5E5E5;
+}
+
+input::placeholder {
+  color:#575A7B;
+  font-family: poppins;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus::placeholder {
+  font-size: 10px;
+  transform: translateY(-15px);
+  color: blue;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#regForm {
+    background-color: #ffffff;
+    /* margin: 100px auto; */
+    padding: 40px;
+    width: 100%;
+    min-width: 300px;
+  }
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+  }
+
+.butn {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+  button {
+    background-color: #1F194C;
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+  
+  button:hover {
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+  
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #1F194C;
+  }
+
+  /* Mark input boxes that gets an error on validation: */
+input.invalid {
+    border: solid 0.5px rgb(252, 134, 134);
+}
+
+a {
+  text-decoration: none;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.remember input {
+  height: auto;
+  width: auto;
+  margin-bottom: 0;
+}
+
+.icon i {
+  margin-left: -40px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 750px) { 
+  .container {
+    margin: 0;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+  }
+
+.left {
+  padding: 30px 100px 0px 0px;
+  background-color: #ECFFF9;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+  align-items: center;
+  height: 100%;
+  }
+
+  .right {
+    display: grid;
+    align-items: center;
+    grid-template-rows: auto;
+    /* grid-template-columns: repeat(2, 1fr);   */
+    grid-gap: 5px;
+  }
+
+  .first {
+    grid-column: 1/2;
+  }
+  .last {
+    grid-column: 2/3;
+  }
+  .mail {
+    grid-column: 1/3;
+  }
+  .pword {
+    grid-column: 1/2;
+  }
+  .cword {
+    grid-column: 2/3;
+  }
+  .rol {
+    grid-column: 1/3;
+  }
+
+  nav {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .nav {
+    display: block;
+    grid-row: 1/2;
+  }
+  .sign {
+    display: block;
+    grid-row: 2/3;
+  }
+  .sign img {
+    max-width: 100%; 
+    height: 80vh;
+  }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 850px) { 
+  
+}

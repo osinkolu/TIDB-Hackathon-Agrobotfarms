@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="img/favicon.jpg" />
+  <link rel="stylesheet" href="./css/signup/signin.css">
+  <title>Log In</title>
+</head><body class="container">
+  <nav>
+    <img src="img/logo.jpg" alt="">
+  </nav>
+  <hr>  
+  <section class="left">
+    <div class="sign">
+      <img src="img/signin.svg" alt="">
+    </div>
+    <div class="nav">
+      <img src="img/logo.jpg" alt="">
+    </div>
+  </section>
+  <section class="right">
+    <form id="regForm" method="post">
+      <fieldset>
+      <section class="">
+        <h3>Log In</h3>      
+        <label for="email">
+          <input type="email" oninput="this.className = ''" id="email" placeholder="Email Address" required>
+        </label>     
+        <label for="password"></label> 
+        <section class="icon">
+            <input type="password" id="password" placeholder="Password" required />
+            <i class="fa fa-eye" id="togglePassword"></i>
+        </section>  
+        <div class="remember">
+          <span><input type="checkbox" class="checkbox"> Remember me</span>
+          <span><a href="forgot-password.html">Forgot Password?</a></span>
+        </div>
+        <button>Log In <span><i class="fa fa-sign-in"></i></span></button>
+        <p class="">Don't have an account? <span  ><a href="signup.html">Sign up here</a></span></p>
+      </section>
+      </fieldset>
+    </form>  
+  </section>
+  <script src="./js/signup/signin.js"></script>
+</body>
+</html>

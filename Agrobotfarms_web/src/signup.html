@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="../images/logo.png" />
+  <link rel="stylesheet" href="css/signup/signin.css">
+
+  <title>Sign Up</title>
+  <script>
+    function redirectToDashboard() {
+      var role = document.getElementById("role").value;
+      
+      if (role === "Farmer") {
+        window.location.href = "farmer-dashboard.html";
+      } else if (role === "Buyer") {
+        window.location.href = "consumer-dashboard.html";
+      }
+    }
+  </script>
+</head>
+<body class="container">
+  <nav>
+    <img src="img/logo.jpg" alt="">
+  </nav>
+  <hr> 
+  <section class="left">
+    <div class="sign">
+      <img src="img/signup.svg" alt="">
+    </div>
+    <div class="nav">
+      <img src="img/logo.jpg" alt="">
+    </div>
+  </section>
+  <section>
+    <form>
+        <!-- One "tab" for each step in the form: -->
+      <section class="tab">
+        <h3>Sign Up</h3>
+        <div class="first">
+          <label for="firstname">
+            <input type="text" oninput="this.className = ''" id="firstname" placeholder="Firstname" autofocus required>
+          </label>
+        </div>
+        <div class="last">
+          <label for="lastname">
+            <input type="text" oninput="this.className = ''" id="lastname" placeholder="Lastname" required>
+          </label>
+        </div>  
+        <div class="mail">
+          <label for="email">
+            <input type="email" oninput="this.className = ''" id="email" placeholder="Email Address" required>
+          </label>
+        </div>  
+        <div class="pword">
+          <label for="password"></label> 
+          <section class="icon">
+              <input type="password" id="password" placeholder="Password" required />
+              <i class="fa fa-eye" id="togglePassword"></i>
+          </section> 
+        </div>
+        <div class="cword">
+          <section class="icon">
+            <input type="password" id="confirm_password" placeholder="Confirm Password" required />
+            <i class="fa fa-eye" id="toggleConfirmPassword"></i>
+          </section> 
+        </div>
+        <div class="rol">  
+          <input name="role" list="role" oninput="this.className = ''" placeholder="Role" required>
+          <datalist id="role">
+            <select id="role" name="role">
+              <option value="Farmer">Farmer</option>
+              <option value="Buyer">Buyer</option>
+            </select>
+          </datalist>
+        </div>  
+        <div class="">  
+          <input name="country" list="country" oninput="this.className = ''" placeholder="Country" required>
+          <datalist id="country">
+            <select name="country">
+              <!-- <option value="Kenya">Kenya</option> -->
+              <option value="Nigeria">Nigeria</option>
+            </select>
+          </datalist>
+        </div>
+        <div class="">
+          <input type="text" oninput="this.className = ''" placeholder="State" required>
+        </div>
+        <!-- <p>By signing up you accept our <a href="#">terms and conditions</a></p> -->
+        <p class="">Already have an account? <span><a href="signin.html">Login here</a></span></p>
+      </section>
+
+          <div>
+            <button class="butn" value="Submit" onclick="redirectToDashboard()" type="button" >Sign up </button>
+          </div>
+      </div>
+    </form>  
+  </section>
+
+ 
+<script src="./js/signup/signup.js"></script>
+<script src="./js/signup/signin.js"></script>
+
+</body>
+</html>
