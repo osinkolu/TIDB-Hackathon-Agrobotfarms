@@ -1,0 +1,9 @@
+googletrans==4.0.0-rc1
+tflite-support==0.3.1
+Flask
+pillow
+google-search-results
+tensorflow-cpu
+gunicorn
+requests
+flask_cors
